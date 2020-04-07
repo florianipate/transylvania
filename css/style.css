@@ -162,15 +162,7 @@ img {
   color: #fff;
   text-align: center;
 }
-.divider .fa {
-  border: 2px solid #fff;
-  border-radius: 50%;
-  font-size: 32px;
-  width: 80px;
-  height: 80px;
-  line-height: 76px;
-  text-transform: capitalize;
-}
+
 .divider h2 {
   padding-bottom: 4px;
 }
@@ -192,6 +184,18 @@ img {
 }
 .divider .divider-three {
   background: #ffa500;
+}
+.fa-icon{
+  padding: 20px;
+  border: 0.3rem solid #ffffff;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
+.fa-w-16{
+  width: 6rem !important;
+  height: 7rem !important;
 }
 
 /* about section */
