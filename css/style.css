@@ -70,8 +70,11 @@ img {
   transition: all 0.4s ease-in;
 }
 .btn:hover {
-  background: #009988;
+  background: #c4f0eb;
   border-color: transparent;
+}
+.btm-more{
+  
 }
 
 .email {
@@ -144,17 +147,41 @@ img {
 
 /* home section */
 #home {
-  background: url('../images/home-bg.jpg') no-repeat;
+  background: url('../images/transylvania_ltd_home_page_hero_mobile.jpg') no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 500px;
+  min-height: 400px;
   padding-top: 180px;
   padding-bottom: 100px;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#home.container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 #home h1,
 #home h3 {
   line-height: 30px;
   font-size: 40px;
+}
+@media screen and (min-width:567px){
+  #home {
+    background: url('../images/transylvania_ltd_home_page_hero_tablet.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 390px;
+  }
+}
+@media screen and (min-width:1010px){
+  #home{
+    background: url('../images/transylvania_ltd_home_page_hero.jpg') no-repeat;
+    min-height: 680px;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 /* divider section */
