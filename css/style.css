@@ -248,6 +248,10 @@ img {
   padding-left: 30px;
   padding-right: 20px;
 }
+#about .about_img{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 #about .btn {
   margin-top: 30px;
 }
