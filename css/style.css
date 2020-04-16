@@ -102,6 +102,14 @@ img {
   line-height: 40px;
   transition: all 0.4s ease-in;
  }
+ .dropdown-item{
+   width: 100%;
+   padding-left: 10px;
+ }
+ .dropdown-menu{
+   background-color: #202020;
+   min-width: 200px;
+ }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #ffa500;
@@ -141,6 +149,7 @@ img {
 .active {
 	background: #333;
 }
+/* Hero section */
 #home .hero-right{
   display: flex;
   flex-direction: column;
