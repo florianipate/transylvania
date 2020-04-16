@@ -80,8 +80,10 @@ img {
 }
 
 /* navigation */
-
-.navbar-default {
+.bg-dark{
+  background: #202020;
+}
+.navbar-dark {
     background: #202020;
     border: none;
     border-left: 6px solid #f6dc00;
@@ -90,14 +92,14 @@ img {
     position: relative;
     /* top: 20px; */
   }
-.navbar-default .navbar-brand {
+.navbar-dark .navbar-brand {
     font-size: 40px;
     line-height: 40px;
     /* padding-top: 4px; */
    }
-.navbar-default .navbar-nav li a {
+.navbar-dark .navbar-nav li a {
   color: #f2f2f2;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 40px;
   transition: all 0.4s ease-in;
@@ -105,22 +107,31 @@ img {
  .dropdown-item{
    width: 100%;
    padding-left: 10px;
+   transition: all 0.4s ease-in;
+ }
+ .dropdown-item:hover{
+   background-color: #101010;
+   color: #ffa500 !important;
+ }
+a.dropdown-item:hover{
+  color: #ffa500;
  }
  .dropdown-menu{
    background-color: #202020;
    min-width: 200px;
+   margin-top: 14px;
  }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #ffa500;
+.navbar-dark .navbar-nav > li > a:hover,
+.navbar-dark .navbar-nav > li > a:focus {
+  color: #ffa500 !important;
 }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  	color: #ffa500;
+.navbar-dark .navbar-nav > .active > a,
+.navbar-dark .navbar-nav > .active > a:hover,
+.navbar-dark .navbar-nav > .active > a:focus {
+  	color: #ffa500 !important;
   	background-color: transparent;
 }
-.navbar-default .navbar-toggle {
+.navbar-dark .navbar-toggle {
   	/* background: #f6dc00; */
   	border-radius: 0px;
    	border: 1px solid #f6dc00;
@@ -137,9 +148,12 @@ img {
     max-width: 212px;
   }
 }
-.navbar-default .navbar-toggle .icon-bar {
+/* .navbar-default .navbar-toggle .icon-bar {
     background: #fff;
     border-color: transparent;
+} */
+.navbar-toggler{
+  border-color: #f6dc00;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus { 
@@ -147,7 +161,7 @@ img {
 }
 
 .active {
-	background: #333;
+	background: #101010;
 }
 /* Hero section */
 #home .hero-right{

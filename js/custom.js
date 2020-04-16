@@ -42,6 +42,6 @@ $('#portfolio a').nivoLightbox({
     });
 
 // HIDE MOBILE MENU AFTER CLIKING ON A LINK
-   $('.navbar-collapse a').click(function(){
+   $('.dropdown-item').click(function(){
         $(".navbar-collapse").collapse('hide');
     });
