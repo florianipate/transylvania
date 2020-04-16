@@ -141,29 +141,13 @@ img {
 .active {
 	background: #333;
 }
-
-/* home section */
-/* #home {
-  background: url('../images/transylvania_ltd_home_page_hero_mobile.jpg') no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 400px;
-  padding-top: 180px;
-  padding-bottom: 100px;
-  display:flex;
-  flex-direction: column;
-  align-items: flex-end;
-} */
 #home .hero-right{
   display: flex;
   flex-direction: column;
   align-items: center;
   vertical-align: middle;
   background-color: #b09f59;
-  /* height: 100%; */
-  /* padding-left: 0; */
   min-height: 250px;
-  /* padding: 30px 20px 20px 60px; */
   color: #ffffff;
 }
 .hero-right-inner{
@@ -203,11 +187,6 @@ img {
   .hero-right-inner-image{
     padding-bottom: 100px;
   }
-  /* #home .hero-right{
-    min-height: 490px;
-    padding: 100px 20px 20px 60px;
-  } */
-  
 }
 @media screen and (min-width:1010px){
   #home .hero-left{
@@ -218,10 +197,6 @@ img {
   #home .hero-right{
     min-height: 600px;
   }
-  /* #home h1 {
-    line-height: 30px;
-    font-size: 40px;
-  } */
 }
 
 /* divider section */
