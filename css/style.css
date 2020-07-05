@@ -283,7 +283,7 @@ a.dropdown-item:hover{
 }
 .divider .divider-wrapper:hover {
   /*bottom: 20px;*/
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 @media screen and (min-width:560px){
     .divider{
